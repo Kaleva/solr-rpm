@@ -6,7 +6,7 @@ Release:	2%{?dist}
 Summary:	Solr
 License:	GPL
 URL:		http://lucene.apache.org/solr/
-Source: 	http://apache.cu.be/lucene/solr/%{version}/apache-solr-%{version}.tgz
+Source: 	http://ftp.wayne.edu/apache/lucene/solr/%{version}/apache-solr-%{version}.tgz
 Source1:        tomcat-solr.xml
 Source2:        solrconfig.xml
 BuildRoot:	%(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
